@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.header {
+    min-height: 45vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(163, 164, 168, 0.7), rgba(80, 92, 132, 0.7)), url(imges/volcan\ 100.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.header img {
+    width: 150px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+
+/*---------- imagen header --------*/
+
+.head-nav {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1px 20% 1px 1px;
+    background-color: #DF760B;
+    opacity: 86%;
+    align-items: flex-end;
+    overflow: hidden;
+}
+
+.logo {
+    background-image: url(imges/logo\ sin\ fondo\ 3.png);
+}
+
+
+/*---------- textbox inicial --------*/
+
+.text-box {
+    width: 99%;
+    color: #cc7701bf;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text-box h1 {
+    font-size: 50px;
+}
+
+.text-box p {
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: #cc7701bf;
+}
+
+
+/*---------- display navegación --------*/
+
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    width: 150px;
+}
+
+
+/*---------- links navegación index --------*/
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0px 12px;
+    position: relative;
+}
+
+.nav-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.nav-links ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #573a0433;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after {
+    width: 100%;
+}
+
+
+/*----- Footer -----*/
+
+.footer {
+    background-color: #fdb93c;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.footer h4 {
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.icons .fa {
+    color: #ffa600;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+
+
+/* productos */
+
+.product {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.product-col {
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.card {
+    position: absolute;
+    width: 330px;
+    height: 460px;
+    background: linear-gradient(209.19deg, #FDF4DD 26.29%, #FFFFFF 138.51%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.product-col img {
+    width: 300px;
+    margin-left: 15px;
+    margin-top: 10px;
+    display: block;
+}
+
+.row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+    width: 100%;
+    margin: 0 auto;
+}
