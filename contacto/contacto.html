@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/contacto/style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;0,300;0,400;1,400&family=Roboto:ital,wght@1,100&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+        integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="menu container">
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <img src="imges/logo sin fondo 3.png" class="menu-icono" alt="">
+            </label>
+            <div class="header-content container">
+                <div class="header-txt">
+                    <div class="text-box">
+                        <h1>Esencias del Llaima</h1>
+                        <p>Productos naturales #apícolas de calidad que cumplen con la misión de cuidar el entorno donde
+                            se producen. Manejo apícola #agroecologico.</p>
+                    </div>
+                </div>
+            </div>
+
+    </header>
+    <section class="head-nav">
+        <nav>
+            <div class="nav-links" id="navLinks">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="mayoristas.html">Mayoristas</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+
+    <!--CONTACTO-->
+<section>
+    <div class="c_form">
+
+        <br class="c_formulario"> 
+    <h2>Contáctanos</h2>
+    <br></br>
+    <h3>Escríbenos y tomaremos contacto contigo</h3>
+
+    
+
+
+    <form action="submeter-formulario.php" method="post">       
+
+      
+          <p>
+            <label for="nombre" class="c_nombre">Nombre
+              <span class="obligatorio">*</span>
+            </label>
+              <input type="text" name="introducir_nombre" id="c_nombre" required="obligatorio" placeholder="Escribe tu nombre">
+          </p>
+        
+          <p>
+            <label for="email" class="c_email">Email
+              <span class="obligatorio">*</span>
+            </label>
+              <input type="email" name="introducir_email" id="c_email" required="obligatorio" placeholder="Escribe tu Email">
+          </p>
+      
+          <p>
+            <label for="telefone" class="c_telefono">Teléfono
+            </label>
+              <input type="tel" name="introducir_telefono" id="c_telefono" placeholder="Escribe tu teléfono">
+          </p>    
+        
+          <p>
+            <label for="mensaje" class="c_mensaje">Mensaje
+              <span class="obligatorio">*</span>
+            </label>                     
+                              <textarea name="introducir_mensaje" class="c_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario"></textarea> 
+                          </p>                    
+        
+          <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+
+    </section>
+    <section class="footer">
+        <h4> Información de contacto</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br />Optio accusamus suscipit at veniam
+            necessitatibus expedita iure cum a doloribus veritatis architecto eaque dolorem ipsam cupiditate voluptate
+            harum, quos sint repellat!</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Esencias del Llaima, 2023.</p>
+    </section>
+    <a href="https://wa.me/5211234567890?text=Hola!%20me%20gustaría%20realizar%20una%20compra" class="whatsapp" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
+</body>
+  
+
+</html>
