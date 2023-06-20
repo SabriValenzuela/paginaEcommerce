@@ -7,7 +7,7 @@
 .header {
     min-height: 45vh;
     width: 100%;
-    background-image: linear-gradient(rgba(163, 164, 168, 0.7), rgba(80, 92, 132, 0.7)), url(imges/volcan\ 100.png);
+    background-image: linear-gradient(rgba(163, 164, 168, 0.7), rgba(80, 92, 132, 0.7)), url(/global/img/volcan\ 100.png);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -110,6 +110,24 @@ nav img {
     width: 100%;
 }
 
+.whatsapp {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    z-index: 100;
+}
+
+.whatsapp-icon {
+    margin-top: 13px;
+}
+
 
 /*----- Footer -----*/
 
@@ -117,7 +135,7 @@ nav img {
     background-color: #fdb93c;
     width: 100%;
     text-align: center;
-    padding: 30px 0;
+    padding: 20px 0;
 }
 
 .footer h4 {
@@ -127,54 +145,8 @@ nav img {
 }
 
 .icons .fa {
-    color: #ffa600;
+    color: #fefefd;
     margin: 0 13px;
     cursor: pointer;
     padding: 18px 0;
-}
-
-
-/* productos */
-
-.product {
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    padding-top: 50px;
-}
-
-.product-col {
-    flex-basis: 32%;
-    border-radius: 10px;
-    margin-bottom: 30px;
-    position: relative;
-    overflow: hidden;
-}
-
-.card {
-    position: absolute;
-    width: 330px;
-    height: 460px;
-    background: linear-gradient(209.19deg, #FDF4DD 26.29%, #FFFFFF 138.51%);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
-}
-
-.product-col img {
-    width: 300px;
-    margin-left: 15px;
-    margin-top: 10px;
-    display: block;
-}
-
-.row {
-    margin-top: 5%;
-    display: flex;
-    justify-content: space-between;
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 5px;
-    width: 100%;
-    margin: 0 auto;
 }
