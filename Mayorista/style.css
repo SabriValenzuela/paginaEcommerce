@@ -1,0 +1,60 @@
+/* Import de fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap'); /*titulos*/
+@import url('https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy&display=swap'); /*contenido*/
+
+ .ventas-mayoristas {
+    background-color:#f1e9e0;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-family: 'Sorts Mill Goudy', serif; /* Aplica import de cont */
+  }
+  .custom-title {
+    font-family: 'Berkshire Swash', cursive; /* Aplica la fuente Berkshire Swash */
+    font-size: 24px; /* Tamaño del título */
+    font-weight: bold; /* Negrita */
+  }
+  
+  .ventas-mayoristas h2 {
+    font-size: 24px;
+    color: #4F3930;
+    text-align: center;
+
+  }
+  
+  .ventas-mayoristas p {
+    margin-bottom: 10px;
+    color: #666;
+  }
+  
+  .ventas-mayoristas h3 {
+    font-size: 18px;
+    color: #4F3930;
+    margin-top: 20px;
+  }
+  
+  .ventas-mayoristas ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    color: #666;
+  }
+  
+  .ventas-mayoristas li {
+    margin-bottom: 5px;
+  }
+
+  .info-imagen {
+    float: right;
+    margin-left: 20px;
+    max-width: 250px;
+    height: auto;
+  }
+
+  #compra-mayorista {
+    color:#4F3930; 
+  }
+  
+ .destacar{
+    color: #4F3930;
+    font-weight: bold;
+  }
+  
