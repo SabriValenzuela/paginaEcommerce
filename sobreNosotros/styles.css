@@ -1,35 +1,17 @@
-.infoNosotros {
-    background: #FDF4DD;
-    padding: 20px;
-    margin: 30px;
-    align-items: center;
-}
-
-.infoNosotros img {
-    width: 250px;
-    height: 250px;
-    margin-right: 20px;
-    margin-left: 20px;
-    align-items: center;
-    top: -50px;
-    /*  border-radius: 20px; */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    /*Sombra*/
-}
-
-.textoNosotros h1 {
+.nosotros h1 {
     text-align: center;
-    color: #DF760B;
-    font-size: 40px;
+    color: #804810;
+    font-size: 50px;
 }
 
-.textoNosotros p {
+.nosotros p {
     text-align: center;
     text-align: justify;
     margin: 0;
-    padding: 10px;
-    font-size: 15px;
-    color: #100800;
+    padding: 15px;
+    line-height: 20px;
+    font-size: px;
+    color: rgb(5, 5, 5);
 }
 
 .videoBallon {
@@ -57,4 +39,74 @@
     margin-left: 20px;
     align-items: center;
     top: -50px;
+}
+
+.imgNosotros {
+    width: 300px;
+    height: 380px;
+}
+
+.nosotros {
+    background: rgb(246, 199, 148);
+    overflow: auto;
+    margin: 20px;
+    /*Esta propiedad y valor obligan a que el navegador calcule y le asigne el tamaño al contenedor  y  no deja que los elementos hijos del contenedor principal "section" se desborden.*/
+}
+
+.nosotros iframe {
+    float: left;
+    margin: 0 10px 0 0;
+}
+
+.nosotros p {
+    font-size: 13pt;
+}
+
+.fotosNosotros {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    flex: auto;
+    margin-top: 20px;
+}
+
+.fotosNosotros {
+    width: 350px;
+    height: 350px;
+    margin-bottom: 10px;
+}
+
+.apiturismo {
+    margin: 20px;
+    /*Esta propiedad y valor obligan a que el navegador calcule y le asigne el tamaño al contenedor  y  no deja que los elementos hijos del contenedor principal "section" se desborden.*/
+}
+
+.apiturismo img {
+    float: left;
+    margin: 0 10px 0 0;
+    width: 350px;
+    height: 350px;
+}
+
+.apiturismo h1 {
+    text-align: center;
+    color: #DF760B;
+    font-size: 60px;
+}
+
+.apiturismo p {
+    font-size: 13pt;
+}
+
+.fotosApiturismo {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    flex: auto;
+    margin: 20px;
+}
+
+.fotosApiturismo {
+    width: 350px;
+    height: 365px;
 }
