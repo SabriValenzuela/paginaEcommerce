@@ -92,21 +92,26 @@
     text-align: center;
     color: #DF760B;
     font-size: 60px;
+    padding: 10PX;
 }
 
 .apiturismo p {
     font-size: 13pt;
+    margin: 10px;
 }
 
-.fotosApiturismo {
-    display: flex;
-    flex-direction: row;
+.fotosApiturismo img {
+    flex-direction: row-reverse;
     width: auto;
     flex: auto;
     margin: 20px;
-}
-
-.fotosApiturismo {
     width: 350px;
     height: 365px;
+    width: 100%;
+    max-width: 300px;
+    /* Ajusta el ancho máximo de la imagen */
+    height: auto;
+    margin: 20px;
+    align-items: center;
+    justify-items: center;
 }
