@@ -6,8 +6,13 @@
 
 .header {
     min-height: 45vh;
+<<<<<<< HEAD:style.css
+    /* width: 100%; */
+    background-image: linear-gradient(rgba(163, 164, 168, 0.7), rgba(80, 92, 132, 0.7)), url(imges/volcan\ 100.png);
+=======
     width: 100%;
     background-image: linear-gradient(rgba(163, 164, 168, 0.7), rgba(80, 92, 132, 0.7)), url(/global/img/volcan\ 100.png);
+>>>>>>> 7d0b2203af540b756a18b7a889df59126447337f:global/style.css
     background-position: center;
     background-size: cover;
     position: relative;
@@ -80,7 +85,7 @@ nav img {
 
 .nav-links {
     flex: 1;
-    text-align: right;
+    text-align: center;
 }
 
 .nav-links ul li {

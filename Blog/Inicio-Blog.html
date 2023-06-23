@@ -6,8 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Blog</title>
   <link rel="stylesheet" href="/global/style.css"> <!-- global style -->
-  <link rel="stylesheet" href="/Blog/style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;0,300;0,400;1,400&family=Roboto:ital,wght@1,100&display=swap"
+  <link rel="stylesheet" href="/Blog/Inicio-Blog.css"> <!--style.css  -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;0,300;0,400;1,400&family=Roboto:ital,wght@1,100&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
     integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
@@ -46,23 +47,22 @@
     </nav>
   </section>
   <main>
-    <section id="publicaciones-container">
-      <h2>Publicaciones</h2>
-      <div class="publicacion">
-        <h3>Título de la publicación</h3>
-        <p>Contenido de la publicación</p>
-      </div>
-      <div class="publicacion">
-        <h3>Título de publicación</h3>
-        <p>Contenido de publicación</p>
-      </div>
-    </section>
-    <div class="container">
-      <button id="boton-ver-todas">Ver todas las publicaciones</button>
-      <button id="boton-ordenar-fecha">Ordenar por fecha</button>
+    <div class="caja">
+      <h1>Iniciar Sesión</h1>
+      <form>
+        <div class="form-group">
+          <label for="username">Usuario:</label>
+          <input type="text" id="username" name="username" placeholder="Ingresa tu usuario">
+        </div>
+        <div class="form-group">
+          <label for="password">Contraseña:</label>
+          <input type="password" id="password" name="password" placeholder="Ingresa tu contraseña">
+        </div>
+        <div class="form-group">
+          <button type="submit">Iniciar Sesión</button>
+        </div>
+      </form>
     </div>
-    <!-- <button id="boton-ver-todas" onclick="verTodasLasPublicaciones()">Ver todas las publicaciones</button>
-        <button id="boton-ordenar-fecha" onclick="ordenarPorFecha()">Ordenar por fecha</button> -->
   </main>
 
 
@@ -79,8 +79,6 @@
     </div>
     <p>Esencias del Llaima, 2023.</p>
   </section>
-  <!-- <script src="main-2.js"></script> -->
-
 </body>
 
 </html>
