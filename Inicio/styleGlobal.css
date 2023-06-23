@@ -5,8 +5,6 @@
 }
 
 .header {
-    min-height: 45vh;
-    width: 100%;
     background-image: linear-gradient(rgba(163, 164, 168, 0.7), rgba(80, 92, 132, 0.7)), url(img/volcan\ 100.png);
     background-position: center;
     background-size: cover;
