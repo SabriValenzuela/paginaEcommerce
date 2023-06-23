@@ -1,0 +1,60 @@
+.infoNosotros {
+    background: #FDF4DD;
+    padding: 20px;
+    margin: 30px;
+    align-items: center;
+}
+
+.infoNosotros img {
+    width: 250px;
+    height: 250px;
+    margin-right: 20px;
+    margin-left: 20px;
+    align-items: center;
+    top: -50px;
+    /*  border-radius: 20px; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    /*Sombra*/
+}
+
+.textoNosotros h1 {
+    text-align: center;
+    color: #DF760B;
+    font-size: 40px;
+}
+
+.textoNosotros p {
+    text-align: center;
+    text-align: justify;
+    margin: 0;
+    padding: 10px;
+    font-size: 15px;
+    color: #100800;
+}
+
+.videoBallon {
+    padding: 15px;
+    align-items: center;
+}
+
+.video13c {
+    padding: 25px;
+    align-items: center;
+}
+
+.video13c h1 {
+    font-size: 25px;
+    color: #4F3930;
+    padding: 15px;
+}
+
+.apiturismo {}
+
+.imgApiturismo img {
+    width: 300px;
+    height: 380px;
+    margin-right: 20px;
+    margin-left: 20px;
+    align-items: center;
+    top: -50px;
+}
