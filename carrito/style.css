@@ -1,0 +1,49 @@
+/* Import de fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap'); /*titulos*/
+@import url('https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy&display=swap'); /*contenido*/
+
+.custom-title {
+    font-family: 'Berkshire Swash', cursive; /* Aplica la fuente Berkshire Swash */
+    font-size: 24px; /* Tamaño del título */
+    font-weight: bold; /* Negrita */
+  }
+  
+.cart-page {
+    margin-bottom: 40px;
+  }
+  
+  .cart-page h2 {
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  thead {
+    background-color: #DF760B;
+  }
+
+  .checkout-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #DF760B;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .checkout-btn:hover {
+    background-color: #cf9441bf;
+  }
+  

@@ -6,8 +6,9 @@
 
 .header {
     min-height: 45vh;
-    width: 100%;
-    background-image: linear-gradient(rgba(163, 164, 168, 0.7), rgba(80, 92, 132, 0.7)), url(img/volcan\ 100.png);
+    /* width: 100%; */
+    background-image: linear-gradient(rgba(163, 164, 168, 0.7), rgba(80, 92, 132, 0.7)), url(imges/volcan\ 100.png);
+
     background-position: center;
     background-size: cover;
     position: relative;
@@ -23,6 +24,7 @@
 /*---------- imagen header --------*/
 
 .head-nav {
+
     height: 60px;
     display: flex;
     justify-content: flex-end;
@@ -78,7 +80,7 @@ nav img {
 
 .nav-links {
     flex: 1;
-    text-align: right;
+    text-align: center;
 }
 
 .nav-links ul li {
