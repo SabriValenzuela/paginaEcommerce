@@ -27,6 +27,8 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
     margin: 0 30px;
+    transition: all 0.25s;
+    flex: content;
 }
 
 .botonCarrito {
@@ -220,6 +222,8 @@
     display: flex;
     background-color: #4F3930;
     justify-content: space-between;
+    margin: 30px;
+    border-radius: 20px;
 }
 
 .textoPropositos {
@@ -249,17 +253,23 @@
     padding-top: 20px;
 }
 
-.seguirInsta img {
+.imgSeguir img {
     width: 100%;
     max-width: 300px;
     /* Ajusta el ancho máximo de la imagen */
     height: auto;
     margin: 20px;
     align-items: center;
+    justify-items: center;
 }
 
 .seguirInsta button {
     background-color: #598fe6;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 5px;
+    margin: 10px;
+    align-items: center;
 }
 
 .whatsapp {

@@ -1,0 +1,207 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+.caja {
+    width: 300px;
+    background-color: rgb(255, 246, 237);
+    clear: left;
+    margin: 30px auto;
+    padding: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #f2f2f2;
+    border-image: initial;
+    border-radius: 5px;
+}
+
+.caja h1 {
+    text-align: center;
+}
+
+.caja form {
+    margin-top: 20px;
+}
+
+.caja form-group {
+    margin-bottom: 10px;
+}
+
+.caja label {
+    display: block;
+    font-weight: bold;
+}
+
+.form input[type="text"],
+.form input[type="password"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    padding: 10px;
+    background-color: #ffa600;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    /* width: 50%;
+    padding: 10px;
+    background-color: #ffa600;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    text-align: center; */
+}
+
+button[type="submit"]:hover {
+    background-color: #fbd999;
+}
+
+#formulario {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#formulario h2 {
+    margin-top: 0;
+}
+
+
+/* Fechas */
+
+#formulario input[type="date"].campo-fecha {
+    width: 12%;
+    padding: 5px;
+    margin-bottom: 10px;
+    resize: none;
+    float: right;
+}
+
+
+/* Formulario titulo */
+
+#formulario input {
+    width: 99%;
+    padding: 5px;
+    margin-bottom: 10px;
+    resize: none;
+}
+
+
+/* Formulario texto */
+
+#formulario textarea {
+    width: 99%;
+    /* Cambia el valor según tus necesidades */
+    max-width: 100%;
+    /* Evita que el textarea se desborde */
+    height: 200px;
+    /* Cambia el valor según tus necesidades */
+    padding: 5px;
+    margin-bottom: 10px;
+    resize: none;
+}
+
+
+/* Boton de publicación */
+
+#formulario button {
+    background-color: #ffa600;
+    color: #ffffff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#formulario button:hover {
+    background-color: #fbd999;
+}
+
+
+/* pagina de publicaciones blog */
+
+
+/* Estilos de las publicaciones */
+
+#publicaciones h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.publicacion {
+    background-color: #fff6ed;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.publicacion h3 {
+    margin-top: 0;
+}
+
+.publicacion p {
+    margin-bottom: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    /* Ajusta esto según tus necesidades */
+    flex-direction: row;
+    /* Ajusta esto según tus necesidades */
+    text-align: center;
+}
+
+
+/* .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh; /* Ajusta esto según tus necesidades */
+
+#boton-ver-todas {
+    display: block;
+    margin: 0 auto;
+    background-color: #ffa600;
+    color: #ffffff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    /* float: right; */
+}
+
+#boton-ver-todas:hover {
+    background-color: #fbd999;
+}
+
+#boton-ordenar-fecha {
+    display: block;
+    margin: 0 auto;
+    background-color: #ffa600;
+    color: #ffffff;
+    padding: 5px 10px;
+    border: none;
+    /*  background-color: #ffa600;
+  color: #ffffff;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  /* margin-left: 200px; */
+    /* margin-right: 300px; */
+    /* float: left; */
+}
+
+#boton-ordenar-fecha:hover {
+    background-color: #fbd999;
+}

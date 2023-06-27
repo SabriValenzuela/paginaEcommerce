@@ -5,12 +5,11 @@
 }
 
 .header {
-    min-height: 45vh;
-    width: 100%;
-    background-image: linear-gradient(rgba(163, 164, 168, 0.7), rgba(80, 92, 132, 0.7)), url(/global/img/volcan\ 100.png);
+    background-image: linear-gradient(rgba(163, 164, 168, 0.7), rgba(80, 92, 132, 0.7)), url(img/volcan\ 100.png);
     background-position: center;
     background-size: cover;
     position: relative;
+    overflow: hidden;
 }
 
 .header img {
@@ -23,11 +22,9 @@
 /*---------- imagen header --------*/
 
 .head-nav {
-    width: 100%;
     height: 60px;
     display: flex;
     justify-content: flex-end;
-    padding: 1px 20% 1px 1px;
     background-color: #DF760B;
     opacity: 86%;
     align-items: flex-end;
@@ -35,7 +32,7 @@
 }
 
 .logo {
-    background-image: url(imges/logo\ sin\ fondo\ 3.png);
+    background-image: url(img/logo\ sin\ fondo\ 3.png);
 }
 
 

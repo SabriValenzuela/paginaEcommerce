@@ -1,117 +1,151 @@
-
 /* blog  */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-  }
-  
-  header, main, footer {
+}
+
+header,
+main,
+footer {
     padding: 20px;
-  }
-  
-  /* Estilos del encabezado */
-  header h1 {
+}
+
+
+/* Estilos del encabezado */
+
+header h1 {
     margin: 0;
-  }
-  
-  header nav ul {
+}
+
+header nav ul {
     list-style-type: none;
     padding: 0;
-  }
-  
-  header nav ul li {
+}
+
+header nav ul li {
     display: inline;
     margin-right: 10px;
-  }
-  
-  header nav ul li a {
+}
+
+header nav ul li a {
     text-decoration: none;
     color: #333;
-  }
-  
-  /* Estilos del formulario */
-  /* Crea una publicación */
-  #formulario {
+}
+
+
+/* Estilos del formulario */
+
+
+/* Crea una publicación */
+
+#formulario {
     margin-bottom: 20px;
     text-align: center;
-  }
-  
-  #formulario h2 {
+}
+
+#formulario h2 {
     margin-top: 0;
-  }
-  /* Fechas */
-  #formulario input[type="date"] {
+}
+
+
+/* Fechas */
+
+#formulario input[type="date"].campo-fecha {
     width: 12%;
     padding: 5px;
     margin-bottom: 10px;
-    /* resize: none; */
-  }
-  /* Formulario titulo */
-  #formulario input{
-    width: 100%;
+    resize: none;
+    float: right;
+}
+
+
+/* Formulario titulo */
+
+#formulario input {
+    width: 99%;
     padding: 5px;
     margin-bottom: 10px;
     resize: none;
-  }
-  /* Formulario texto */
-  #formulario textarea{
-    width: 100%; /* Cambia el valor según tus necesidades */
-    max-width: 100%; /* Evita que el textarea se desborde */
-    height: 200px; /* Cambia el valor según tus necesidades */
+}
+
+
+/* Formulario texto */
+
+#formulario textarea {
+    width: 99%;
+    /* Cambia el valor según tus necesidades */
+    max-width: 100%;
+    /* Evita que el textarea se desborde */
+    height: 200px;
+    /* Cambia el valor según tus necesidades */
     padding: 5px;
     margin-bottom: 10px;
     resize: none;
-  }
-  
-  /* Boton de publicación */
-  #formulario button {
+}
+
+
+/* Boton de publicación */
+
+#formulario button {
     background-color: #ffa600;
     color: #ffffff;
     padding: 5px 10px;
     border: none;
     cursor: pointer;
-  }
-  #formulario button:hover{
-  background-color:#fbd999;
-  }
-  
-  /* Estilos de las publicaciones */
-  #publicaciones h2 {
+}
+
+#formulario button:hover {
+    background-color: #fbd999;
+}
+
+
+/* pagina de publicaciones blog */
+
+
+/* Estilos de las publicaciones */
+
+#publicaciones h2 {
     margin-top: 0;
-  }
-  
-  .publicacion {
-    background-color:#fff6ed ;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.publicacion {
+    background-color: #fff6ed;
     border: 1px solid #ccc;
     padding: 10px;
     margin-bottom: 10px;
-  }
-  
-  .publicacion h3 {
+}
+
+.publicacion h3 {
     margin-top: 0;
-  }
-  
-  .publicacion p {
+}
+
+.publicacion p {
     margin-bottom: 0;
-  }
-  
-  .container {
+}
+
+.container-publi {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 20vh; /* Ajusta esto según tus necesidades */
-    flex-direction: row; /* Ajusta esto según tus necesidades */
+    height: 20vh;
+    /* Ajusta esto según tus necesidades */
+    flex-direction: row;
+    /* Ajusta esto según tus necesidades */
     text-align: center;
-  }
-  /* .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 10vh; /* Ajusta esto según tus necesidades */
-  
-  
-  #boton-ver-todas {
+}
+
+
+/* .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh; /* Ajusta esto según tus necesidades */
+
+#boton-ver-todas {
     display: block;
     margin: 0 auto;
     background-color: #ffa600;
@@ -119,47 +153,55 @@ body {
     padding: 5px 10px;
     border: none;
     cursor: pointer;
-    margin-top: 20px; /* Ajusta esto según tus necesidades */
-  }
-  
-  #boton-ver-todas:hover {
+    /* float: right; */
+}
+
+#boton-ver-todas:hover {
     background-color: #fbd999;
-  }
-  
-  #boton-ordenar-fecha {
+}
+
+#boton-ordenar-fecha {
+    display: block;
+    margin: 0 auto;
     background-color: #ffa600;
     color: #ffffff;
     padding: 5px 10px;
     border: none;
-    cursor: pointer;
-    /* margin-left: 200px; */
+    /*  background-color: #ffa600;
+  color: #ffffff;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  /* margin-left: 200px; */
     /* margin-right: 300px; */
-  }
-  
-  #boton-ordenar-fecha:hover {
+    /* float: left; */
+}
+
+#boton-ordenar-fecha:hover {
     background-color: #fbd999;
-  } 
-  
-  /* #boton-ver-todas{
-    display: block;
-    margin: 0 auto;
-    background-color: #ffa600;
-    color: #ffffff;
-    padding: 5px 10px;
-    border: none;
-    cursor: pointer;
-  }
-  #boton-ver-todas:hover{
-    background-color:#fbd999;
-  }
-  
-  #boton-ordenar-fecha{
-    background-color: #ffa600;
-    color: #ffffff;
-    padding: 5px 10px;
-    border: none;
-    cursor: pointer;
-  }
-  #boton-ordenar-fecha:hover{
-    background-color:#fbd999;
-  } */
+}
+
+
+/* #boton-ver-todas{
+  display: block;
+  margin: 0 auto;
+  background-color: #ffa600;
+  color: #ffffff;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+#boton-ver-todas:hover{
+  background-color:#fbd999;
+}
+
+#boton-ordenar-fecha{
+  background-color: #ffa600;
+  color: #ffffff;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+#boton-ordenar-fecha:hover{
+  background-color:#fbd999;
+} */

@@ -1,0 +1,107 @@
+/*productos*/
+
+.contenido-p {
+    width: 100%;
+    display: flex;
+    float: center;
+    margin: auto;
+}
+
+[class*="col-"] {
+    padding: 50px;
+}
+
+.col-1 {
+    width: 20%;
+    padding: 30px;
+}
+
+.col-1 img {
+    width: 150px;
+    height: 160px;
+}
+
+.col-2 {
+    width: 40%;
+}
+
+.col-2 img {
+    width: 400px;
+    height: 450px;
+}
+
+.col-3 {
+    width: 40%;
+    float: left;
+    font-size: 20px;
+}
+
+.col-3 p {
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.col-3 h4 {
+    color: gray;
+}
+
+.col-3 .title {
+    font-size: 30px;
+}
+
+button {
+    margin: 300;
+    font-size: 1em;
+    font-weight: 100;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+    background-color: #DF760B;
+}
+
+
+/* productos */
+
+.product {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.product-col {
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.card {
+    position: absolute;
+    width: 330px;
+    height: 460px;
+    background: linear-gradient(209.19deg, #FDF4DD 26.29%, #FFFFFF 138.51%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.product-col img {
+    width: 300px;
+    margin-left: 15px;
+    margin-top: 10px;
+    display: block;
+}
+
+.row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+    width: 100%;
+    margin: 0 auto;
+}

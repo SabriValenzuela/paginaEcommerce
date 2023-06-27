@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/global/style.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;0,300;0,400;1,400&family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="menu container">
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <img src="/global/img/logo sin fondo 3.png" class="menu-icono" alt="">
+            </label>
+            <div class="header-content container">
+                <div class="header-txt">
+                    <div class="text-box">
+                        <h1>Esencias del Llaima</h1>
+
+                    </div>
+                </div>
+            </div>
+
+    </header>
+    <section class="head-nav">
+        <nav>
+            <div class="nav-links" id="navLinks">
+                <ul>
+                    <li><a href="/Inicio/index.html">Inicio</a></li>
+                    <li><a href="/sobreNosotros/sobreNosotros.html">Sobre Nosotros</a></li>
+                    <li><a href="/productos mala/productos.html">Productos</a></li>
+                    <li><a href="/Blog/Publicaciones_blog.html">Blog</a></li>
+                    <li><a href="/Mayorista/mayoristas.html">Mayoristas</a></li>
+                    <li><a href="/contacto/contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+
+    <main>
+        <section class="cart-page">
+            <h2 class="custom-title">Carrito de Compras</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Producto</th>
+                        <th>Precio</th>
+                        <th>Cantidad</th>
+                        <th>Subtotal</th>
+                        <th>Eliminar</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Aquí se generarán dinámicamente las filas de productos en el carrito -->
+                    <tr>
+                        <td>Propoleo en Spray</td>
+                        <td>$4.000</td>
+                        <td>2</td>
+                        <td>$8.000</td>
+                        <td><button class="remove-btn">Eliminar</button></td>
+                    </tr>
+                    <tr>
+                        <td>Llavero</td>
+                        <td>$1.500</td>
+                        <td>1</td>
+                        <td>$1.500</td>
+                        <td><button class="remove-btn">Eliminar</button></td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">Total:</td>
+                        <td colspan="2">$9.500</td>
+                    </tr>
+                </tfoot>
+            </table>
+            <a href="/datosdeentrega/datosdeentrega.html" class="checkout-btn">Pagar</a>
+        </section>
+    </main>
+
+
+
+    <section class="footer">
+        <h4> Información de contacto</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br />Optio accusamus suscipit at veniam necessitatibus expedita iure cum a doloribus veritatis architecto eaque dolorem ipsam cupiditate voluptate harum, quos sint repellat!</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Esencias del Llaima, 2023.</p>
+    </section>
+</body>
+
+</html>
