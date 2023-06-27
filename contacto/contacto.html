@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/global/style.css">
     <link rel="stylesheet" href="/contacto/style.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;0,300;0,400;1,400&family=Roboto:ital,wght@1,100&display=swap"
@@ -50,50 +50,70 @@
     </section>
 
     <!--CONTACTO-->
-<section>
-    <div class="c_form">
+    <div class="flexcontainer">
+        <section>
+            <div class="c_form">
+                <div class="c_formulario">
+                    <h2>Contáctanos</h2>
+                    <h3>Escríbenos y tomaremos contacto contigo</h3>
 
-        <br class="c_formulario"> 
-    <h2>Contáctanos</h2>
-    <br></br>
-    <h3>Escríbenos y tomaremos contacto contigo</h3>
+                    <form action="submeter-formulario.php" method="post">
+                        <p>
+                            <label for="nombre" class="c_nombre">Nombre
+                                <span class="obligatorio">*</span>
+                            </label>
+                            <input type="text" name="introducir_nombre" id="c_nombre" required="obligatorio"
+                                placeholder="Escribe tu nombre">
+                        </p>
 
-    
+                        <p>
+                            <label for="email" class="c_email">Email
+                                <span class="obligatorio">*</span>
+                            </label>
+                            <input type="email" name="introducir_email" id="c_email" required="obligatorio"
+                                placeholder="Escribe tu Email">
+                        </p>
 
+                        <p>
+                            <label for="telefone" class="c_telefono">Teléfono
+                            </label>
+                            <input type="tel" name="introducir_telefono" id="c_telefono"
+                                placeholder="Escribe tu teléfono">
+                        </p>
 
-    <form action="submeter-formulario.php" method="post">       
+                        <p>
+                            <label for="mensaje" class="c_mensaje">Mensaje
+                                <span class="obligatorio">*</span>
+                            </label>
+                            <textarea name="introducir_mensaje" class="c_mensaje" id="mensaje" required="obligatorio"
+                                placeholder="Deja aquí tu comentario"></textarea>
+                        </p>
 
-      
-          <p>
-            <label for="nombre" class="c_nombre">Nombre
-              <span class="obligatorio">*</span>
-            </label>
-              <input type="text" name="introducir_nombre" id="c_nombre" required="obligatorio" placeholder="Escribe tu nombre">
-          </p>
-        
-          <p>
-            <label for="email" class="c_email">Email
-              <span class="obligatorio">*</span>
-            </label>
-              <input type="email" name="introducir_email" id="c_email" required="obligatorio" placeholder="Escribe tu Email">
-          </p>
-      
-          <p>
-            <label for="telefone" class="c_telefono">Teléfono
-            </label>
-              <input type="tel" name="introducir_telefono" id="c_telefono" placeholder="Escribe tu teléfono">
-          </p>    
-        
-          <p>
-            <label for="mensaje" class="c_mensaje">Mensaje
-              <span class="obligatorio">*</span>
-            </label>                     
-                              <textarea name="introducir_mensaje" class="c_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario"></textarea> 
-                          </p>                    
-        
-          <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+                        <button type="submit" name="enviar_formulario" id="enviar">
+                            <p>Enviar</p>
+                        </button>
+                </div>
+            </div>
 
-    </section>
+        </section>
+
+        <section>
+            <div class="image">
+                <img style="width: 450px; height: 350px;" src="/contacto/img/esenciasubicacion.jpeg">
+            </div>
+        </section>
+        <section>
+            <div class="c_info">
+                <h4>Esencias del Llaima</h4>
+                <h5>Faja 2000, Cunco, Araucanía, Chile</h5>
+                <br>
+                <h5>Hablemos</h5>
+                <h5>Correo oscarcunco@gmail.com</h5>
+                <h5>WhatsApp +569 93364492</h5>
+            </div>
+        </section>
+
+    </div>
     <section class="footer">
         <h4> Información de contacto</h4>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br />Optio accusamus suscipit at veniam
@@ -107,8 +127,9 @@
         </div>
         <p>Esencias del Llaima, 2023.</p>
     </section>
-    <a href="https://wa.me/5211234567890?text=Hola!%20me%20gustaría%20realizar%20una%20compra" class="whatsapp" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
+    <a href="https://wa.me/5211234567890?text=Hola!%20me%20gustaría%20realizar%20una%20compra" class="whatsapp"
+        target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
 </body>
-  
+
 
 </html>
