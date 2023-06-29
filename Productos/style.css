@@ -1,77 +1,64 @@
 /*-------contenido Productos-----------*/
 
-
 h3 {
-    text-align: center;
-    font-size: 50px;
-    padding: 60px;
-}
-
-.container-prod{
-    width: 100%;
-    max-width: 1200px ;
-    height: 430px;
-    display: flex;
-    flex-grow: wrap;
     justify-content: center;
-    margin: auto;
-    
+    font-size: 30px;
+    text-align: center;
+    margin: 10px;
 }
 
-.container .carta-prod {
-    width: 330px;
-    max-width: 430px ;
-    border-radius: 8px;
+.container-prod {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container-prod .carta-prod {
+    width: 270px;
+    border-radius: 15px;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
     overflow: hidden;
-    margin: 20px;
+    margin: 15px;
     text-align: center;
     transition: all 0.25s;
-    
-   
+    background: linear-gradient(209.19deg, #42240c 26.29%, #FFFFFF 138.51%);
 }
 
 .container-prod .carta-prod:hover {
-    transform: translateY(-15px);
+    transform: translateY(-25px);
     box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
 }
+
 .container-prod .carta-prod img {
-    width: 300px;
-    height: 280px;
-    border-radius: 10px;
+    width: 210px;
+    height: 300px;
+    border-radius: 15px;
+    max-width: 100%;
 }
 
-.titulo-item{
-    font-size: x-large;
+.titulo-item {
+    font-size: large;
+    justify-content: center;
+    margin:  5px;
+}
+
+.precio-item {
+    font-size: large;
+    align-items: center;
+    margin: 5px;
 }
 
 .carta-prod button {
-    margin: 100;
     font-size: 1em;
     font-weight: 100;
     padding: 10px 20px;
-    border-radius: 10px;
+    margin-bottom: 10px;
     color: white;
     background-color: #4F3930;
+    border-radius: 8px;
 }
 
 .carta-prod button:hover {
     background-color: #270e03;
 }
-
-.p-ver-todos {
-    margin: 300;
-    font-size: 1em;
-    font-weight: 100;
-    padding: 10px 20px;
-    border-radius: 20px;
-    color: white;
-    background-color: #DF760B;
-    justify-content: space-around;
-    
-}
-
-.p-ver-todos:hover {
-    background-color: #864707;
-}
-
